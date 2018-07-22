@@ -1,0 +1,155 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  div.options-box {
+    background-color: blue;
+    width: 150px;
+    line-height: 5px;
+  }
+body #map {
+    left: 150px;
+    height: 100%;
+  }
+  hr {
+    background: black;
+  }
+body  #toggle-drawing {
+    width: 56%;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+
+  div.text {
+    font-size: 5px;
+    margin-top: 50px;
+    margin-right: 5px;
+  }
+  div #places-search{
+    width: 85%;
+    margin-top: 8px;
+  }
+  body #zoom-to-area-text {
+    width: 47%;
+  }
+  body #zoom-to-area {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  div.options-box {
+    background-color: pink;
+    width: 200px;
+    line-height: 25px;
+  }
+  body #zoom-to-area-text {
+    width: 57%;
+  }
+  body #zoom-to-area {
+    width: 27%;
+  }
+body #map {
+    left: 200px;
+    height: 100%;
+  }
+  hr {
+    background: black;
+  }
+body  #toggle-drawing {
+    width: 56%;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+  div.text {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+}
+
+
+.container {
+  height: 100%;
+  position: relative;
+  border: 1px solid #999;
+}
+.trailItem{
+  line-height: 10px;
+    padding-bottom: 5px;
+}
+input {
+  font-size: 12px;
+}
+
+h1 {
+  color: #525454;
+  font-size: 22px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+a {text-decoration: none;}
+#hide-listings,
+#show-listings,#toggle-listings {
+  width: 48%;
+}
+
+hr {
+  background: #D0D7D9;
+  height: 1px;
+  margin: 20px 0 20px 0;
+  border: none;
+}
+
+#map {
+  bottom:0px;
+  height: 100%;
+  left: 362px;
+  position: absolute;
+  right: 0px;
+}
+
+.options-box {
+  background: #E1EB9B;
+  border: 1px solid #999;
+  border-radius: 3px;
+  height: 100%;
+  line-height: 39px;
+  padding: 10px 10px 30px 10px;
+  text-align: left;
+  width: 340px;
+}
+
+#pano {
+  width: 200px;
+  height: 200px;
+}
+
+#places-search,
+#search-within-time-text {
+  width: 84%;
+}
+
+.text {
+  font-size: 12px;
+}
+
+#toggle-drawing {
+  width: 27%;
+  position: relative;
+  margin-left: 10px;
+}
+
+#zoom-to-area-text {
+  width: 70%;
+}
+
+#zoom-to-area {
+  width: 24%;
+}
